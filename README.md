@@ -2,9 +2,9 @@
 A full-stack **MERN platform** supporting **SDG 13 – Climate Action**, enabling users to report environmental issues, explore climate data, learn from the education hub, and shop for climate-friendly items.
 
 ## 🔗 LIVE LINKS
-**Frontend Live URL:** _add link here_  
-**Backend API URL:** _add link here_  
-**Pitch Deck:** _[https://drive.google.com/drive/folders/1c5vtwqrSoHSp3FGxspBwQZccIAwMcVHV?usp=sharing]
+**Frontend Live URL:** [Lovable Climate web](https://lovableclimate.vercel.app/)  
+**Backend API URL:** [Lovable Climate API](https://lovableclimate-project.onrender.com) 
+**Pitch Deck:** [Lovable Climate Pitch](https://drive.google.com/drive/folders/1c5vtwqrSoHSp3FGxspBwQZccIAwMcVHV?usp=sharing)
 
 ## 📌 TABLE OF CONTENTS
 - Features
