@@ -30,7 +30,7 @@ export default function FAQChat() {
 
     try {
       // 1️⃣ Send question to backend
-      await fetch("http://localhost:5000/api/faqs", {
+      await fetch("https://lovableclimate-project.onrender.com/api/faqs", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: input }),

@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => ({
       },
       //local backend for reports:
       '/backend': {
-        target: 'http://localhost:5000', // Local Node/Express server
+        target: 'https://lovableclimate-project.onrender.com', // Local Node/Express server
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/backend/, ''), // Remove /backend prefix
       },

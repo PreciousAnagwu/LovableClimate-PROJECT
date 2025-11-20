@@ -15,7 +15,7 @@ const app = express(); //app must be declared first before app.use
 // Middleware
 app.use(cors());
 app.use(cors({
-  origin: ['http://localhost:5173'],
+  origin: ['http://https://lovableclimate.vercel.app/'],
   credentials: true,
 }));
 

@@ -42,7 +42,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   // 1️⃣ REGISTER USER (NO VERIFICATION)
   const signUp = async (email: string, password: string, name: string) => {
     try {
-      const res = await fetch("http://localhost:5000/api/auth/register", {
+      const res = await fetch("https://lovableclimate-project.onrender.com/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password, name }),
@@ -65,7 +65,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   // 2️⃣ LOGIN USER
   const signIn = async (email: string, password: string) => {
     try {
-      const res = await fetch("http://localhost:5000/api/auth/login", {
+      const res = await fetch("https://lovableclimate-project.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),

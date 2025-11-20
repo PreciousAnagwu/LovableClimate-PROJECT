@@ -42,7 +42,7 @@ export default function ReportForm({ onSuccess }: ReportFormProps) {
 
     
     try {
-      const res = await fetch("http://localhost:5000/api/reports", {
+      const res = await fetch("https://lovableclimate-project.onrender.com/api/reports", {
         method: "POST",
         body: formData,
         
