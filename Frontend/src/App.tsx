@@ -29,5 +29,4 @@ const App = () => (
     </TooltipProvider>
   </QueryClientProvider>
 );
- <script src="https://js.paystack.co/v1/inline.js"></script>
 export default App;
