@@ -4,7 +4,7 @@ export const staticProducts = [
     title: "HEPA Air Purifier",
     description: "Removes 99.97% of airborne particles and harmful pollutants.",
     price: 149.99,
-    imageUrl: "/images/HEPA.png",
+    imageUrl: "/Images/HEPA.png",
     availableForSale: true,
   },
   {
@@ -12,7 +12,7 @@ export const staticProducts = [
     title: "N95 Face Masks (Pack of 10)",
     description: "Certified N95 masks for protection against pollutants and viruses.",
     price: 29.99,
-    imageUrl: "/images/n95-masks.png",
+    imageUrl: "/Images/n95-masks.png",
     availableForSale: true,
   },
   {
@@ -20,7 +20,7 @@ export const staticProducts = [
     title: "Activated Carbon Water Filters (Set of 3)",
     description: "Reduces contaminants for cleaner, better-tasting water.",
     price: 39.99,
-    imageUrl: "/images/carbon-filters.png",
+    imageUrl: "/Images/carbon-filters.png",
     availableForSale: true,
   },
 ];
