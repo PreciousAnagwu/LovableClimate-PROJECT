@@ -67,6 +67,10 @@ export const useCartStore = create<CartStore>()(
 
         const totalAmount = get().items.reduce((sum, item) => sum + item.price * item.quantity, 0) * 100; // kobo
         const publicKey = import.meta.env.VITE_PAYSTACK_PUBLIC_KEY;
+        
+         // ✅ Debug logs added
+  console.log("PaystackPop =", (window as any).PaystackPop);
+  console.log("Public key =", publicKey);
 
         const handler = new (window as any).PaystackPop.setup({
           key: publicKey,
